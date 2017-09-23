@@ -1,0 +1,126 @@
+.main{
+	margin-bottom: 10px;
+}
+.main-slider{
+	float: left;
+	width: 730px;
+	height: 454px;
+	margin: 8px 0 0 219px;
+	position: relative;
+}
+.circle{
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	margin-left: -66px;
+	
+}
+.circle li{
+	float: left;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background: #3e3e3e;
+	color: #fff;
+	text-align: center;
+	line-height: 18px;
+	margin: 0 2px;
+}
+.circle li.current{
+	background: #C81623;
+}
+.arrow{
+	height: 62px;
+	width: 730px;
+	position: absolute;
+	top: 50%;
+	margin-top: -31px;
+	
+}
+
+.arrow a{
+	display: block;
+	width: 28px;
+	height: 62px;
+	background: rgba(0,0,0,.3);
+	text-align: center;
+	font: 700 22px/62px "consolas";
+	color: #FFFFFF;
+}
+.arrow a:hover{
+	background: rgba(0,0,0,.6);
+}
+
+.main-jdfaster{
+	float: right;
+	height: 454px;
+	width: 250px;
+	margin-top: 12px;
+}
+.main-jdfaster-top{
+	width: 248px;
+	height: 372px;
+	border: 1px solid #e4e4e4;
+}
+.main-jdfaster-top-news{
+	height: 163px;
+	border-bottom: 1px dashed #e4e4e4;
+}
+.main-jdfaster-top-news-title{
+	height: 32px;
+	border-bottom: 1px dotted #e4e4e4;
+	padding: 0 15px;
+	line-height: 32px;
+}
+.main-jdfaster-top-news-title h1{
+	float: left;
+	font:400 16px/32px "微软雅黑"
+}
+.main-jdfaster-top-news-title a{
+	float: right;
+	font-family: consolas;
+}
+.main-jdfaster-top-news-content{
+	padding: 9px 0 0 15px;
+}
+.main-jdfaster-top-news-content li{
+	height: 24px;
+}
+.main-jdfaster-top-news-content li span{
+	font-weight: 700;
+	margin-right: 5px;
+}
+.main-jdfaster-top-money{
+	width: 250px;
+	height: 210px;
+	overflow: hidden;
+}
+.main-jdfaster-top-money ul{
+	width: 260px;
+	height: 215px;
+}
+.main-jdfaster-top-money ul li{
+	width: 62px;
+	height: 70px;
+	float: left;
+	border: 1px solid #E4E4E4;
+	margin-top: -1px;
+	margin-left: -1px;
+	position: relative;
+}
+.main-jdfaster-top-money ul li a{
+	display: block;
+	width: 62px;
+	padding-top: 48px;
+	height: 22px;
+	text-align: center;
+}
+.main-jdfaster-top-money ul li a i{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 15px;
+	left: 18px;
+	background: url(../img/fly.png) no-repeat;
+	
+}
